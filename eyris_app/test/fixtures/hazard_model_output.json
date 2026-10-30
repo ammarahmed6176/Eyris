@@ -1,0 +1,32 @@
+{
+ "photo": "ADE_val_00001425.jpg",
+ "shape": [
+  1,
+  10,
+  3549
+ ],
+ "inputSize": 416,
+ "sourceWidth": 399,
+ "sourceHeight": 571,
+ "labels": [
+  "pothole",
+  "speed breaker",
+  "standing ac",
+  "open drain",
+  "pole",
+  "traffic sign"
+ ],
+ "threshold": 0.3,
+ "expected": [
+  {
+   "label": "open drain",
+   "confidence": 0.397049,
+   "box": [
+    59.698,
+    391.841,
+    235.104,
+    448.187
+   ]
+  }
+ ]
+}

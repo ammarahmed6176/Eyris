@@ -1,0 +1,65 @@
+{
+ "photo": "ADE_val_00000449.jpg",
+ "shape": [
+  1,
+  13,
+  3549
+ ],
+ "inputSize": 416,
+ "sourceWidth": 256,
+ "sourceHeight": 256,
+ "labels": [
+  "pothole",
+  "speed breaker",
+  "standing ac",
+  "open drain",
+  "pole",
+  "traffic sign",
+  "door",
+  "chair",
+  "table"
+ ],
+ "threshold": 0.3,
+ "expected": [
+  {
+   "label": "chair",
+   "confidence": 0.910822,
+   "box": [
+    84.025,
+    140.095,
+    117.825,
+    189.207
+   ]
+  },
+  {
+   "label": "chair",
+   "confidence": 0.575155,
+   "box": [
+    14.781,
+    127.028,
+    28.524,
+    152.092
+   ]
+  },
+  {
+   "label": "table",
+   "confidence": 0.406768,
+   "box": [
+    0.427,
+    182.858,
+    188.884,
+    255.759
+   ]
+  },
+  {
+   "label": "door",
+   "confidence": 0.361549,
+   "box": [
+    119.833,
+    82.484,
+    147.458,
+    193.964
+   ]
+  }
+ ]
+}

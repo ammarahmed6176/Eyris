@@ -1,0 +1,102 @@
+{
+ "phone": {
+  "Pothole": {
+   "threshold": 0.6,
+   "right": 328,
+   "wrong": 50,
+   "objects": 1005,
+   "precision": 0.8677248677248677,
+   "recall": 0.3263681592039801
+  },
+  "Speed breaker": {
+   "threshold": 0.25,
+   "right": 893,
+   "wrong": 30,
+   "objects": 981,
+   "precision": 0.9674972914409534,
+   "recall": 0.910295616717635
+  },
+  "AC": {
+   "threshold": 0.6,
+   "right": 7,
+   "wrong": 0,
+   "objects": 11,
+   "precision": 1.0,
+   "recall": 0.6363636363636364
+  },
+  "Open drain": {
+   "threshold": 0.73,
+   "right": 70,
+   "wrong": 7,
+   "objects": 111,
+   "precision": 0.9090909090909091,
+   "recall": 0.6306306306306306
+  },
+  "Pole": {
+   "threshold": 0.55,
+   "right": 124,
+   "wrong": 13,
+   "objects": 775,
+   "precision": 0.9051094890510949,
+   "recall": 0.16
+  },
+  "Traffic sign": {
+   "threshold": 0.5,
+   "right": 127,
+   "wrong": 13,
+   "objects": 343,
+   "precision": 0.9071428571428571,
+   "recall": 0.37026239067055394
+  }
+ },
+ "esp32": {
+  "Pothole": {
+   "threshold": 0.6,
+   "right": 284,
+   "wrong": 32,
+   "objects": 1005,
+   "precision": 0.8987341772151899,
+   "recall": 0.28258706467661693
+  },
+  "Speed breaker": {
+   "threshold": 0.25,
+   "right": 882,
+   "wrong": 41,
+   "objects": 981,
+   "precision": 0.9555796316359697,
+   "recall": 0.8990825688073395
+  },
+  "AC": {
+   "threshold": 0.6,
+   "right": 5,
+   "wrong": 0,
+   "objects": 11,
+   "precision": 1.0,
+   "recall": 0.45454545454545453
+  },
+  "Open drain": {
+   "threshold": 0.73,
+   "right": 66,
+   "wrong": 6,
+   "objects": 111,
+   "precision": 0.9166666666666666,
+   "recall": 0.5945945945945946
+  },
+  "Pole": {
+   "threshold": 0.55,
+   "right": 108,
+   "wrong": 11,
+   "objects": 775,
+   "precision": 0.907563025210084,
+   "recall": 0.1393548387096774
+  },
+  "Traffic sign": {
+   "threshold": 0.5,
+   "right": 106,
+   "wrong": 9,
+   "objects": 343,
+   "precision": 0.9217391304347826,
+   "recall": 0.30903790087463556
+  }
+ }
+}

@@ -1,0 +1,4 @@
+eyris_app_2026-10-19_v1.0.9.zip filter=lfs diff=lfs merge=lfs -text
+eyris_app/assets/maps/pakistan.mbtiles filter=lfs diff=lfs merge=lfs -text
+eyris_app/weights/clip/ViT-B-32.pt filter=lfs diff=lfs merge=lfs -text
+EYRIS_1.1.1.apk filter=lfs diff=lfs merge=lfs -text

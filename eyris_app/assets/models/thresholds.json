@@ -1,0 +1,33 @@
+{
+  "model_file": "eyris_20_classes_float32.tflite",
+  "input_size": 320,
+  "class_thresholds": {
+    "Pothole": 0.04,
+    "Stairs": 0.06,
+    "Pole": 0.06,
+    "Tree": 0.06,
+    "Bicycle": 0.08,
+    "Bottle": 0.07,
+    "Dustbin": 0.07,
+    "Table": 0.08,
+    "Traffic sign": 0.08,
+    "Chair": 0.1,
+    "Door": 0.08,
+    "Person": 0.12,
+    "Wall": 0.1,
+    "Car": 0.15,
+    "Motorcycle": 0.15,
+    "Truck": 0.15,
+    "Bed": 0.12,
+    "Sofa": 0.12,
+    "Backpack": 0.07,
+    "Laptop": 0.12
+  },
+  "temporal_stability": {
+    "enabled": true,
+    "alpha": 0.65,
+    "iou_threshold": 0.45,
+    "max_unseen_frames": 2,
+    "scene_cut_flush": true
+  }
+}
